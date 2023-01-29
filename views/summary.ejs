@@ -1,0 +1,26 @@
+<%- include("header") -%>
+<div class="container">
+  <p>Here is Summary of your order</p>
+  <p>Please review it and click next to proceed to payments</p>
+
+  <table class="table table-striped">
+    <tr>
+      <th>Product Name</th>
+      <th>Cost</th>
+      <th>Order ID</th>
+      <th>Address</th>
+    </tr>
+    <tr>
+      <td>Trimmer</td>
+      <td>2000 /-</td>
+      <td>54648544</td>
+      <td>Somewhere on Earth</td>
+    </tr>
+  </table>
+  <input type="checkbox" id="terms" />
+  <label for="terms">
+    I have carefully read the <a href="#">terms and conditions</a></label
+  >
+  <a href="/customer"><button class="btn btn-primary">Next</button></a>
+</div>
+<%- include("footer") -%>
